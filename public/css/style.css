@@ -1,0 +1,274 @@
+@font-face {
+    font-family: wesbold;
+    src: url(/css/font/WesFYW03Bold.ttf);
+}
+
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.urability{
+    position: relative;
+    font-family: wesbold;
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 181px;
+}
+
+.oval-2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 167px;
+}
+
+.urability h2{
+    margin: 40px 0px 0px;
+    font-size: 32px;
+    text-align: center;
+    color: #88D34E;
+    opacity: 90%;
+}
+
+.urability h3{
+    margin: 15px 0px 8px;
+    font-size: 14px;
+    text-align: center;
+    color: #465366;
+}
+
+.urability .custom-container{
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.urability .custom-container .kt-portlet h2{
+    margin: 25px 0px 0px;
+    font-family: wesbold;
+}
+
+.urability .custom-container .kt-portlet h3{
+    margin: 5px 0px 0px;
+    font-family: wesbold;
+}
+
+.urability .kt-portlet{
+    width: 660px;
+    margin: auto auto 50px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.22);
+    border-radius: 0px;
+    font-family: Poppins, Helvetica, sans-serif;
+    position: relative;
+    z-index: 5;
+}
+
+.urability .custom-container .left{
+    width: 447px;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    z-index: 3;
+}
+
+.urability .custom-container .right{
+    width: 447px;
+    position: absolute;
+    top: 225px;
+    right: 0px;
+    z-index: 3;
+}
+
+.urability .custom-container .girl{
+    width: 207px;
+    position: absolute;
+    top: 330px;
+    left: 55px;
+    z-index: 4;
+}
+
+.urability .custom-container .boy{
+    width: 135px;
+    position: absolute;
+    top: 357px;
+    right: 105px;
+    z-index: 4;
+}
+
+.urability .kt-portlet .kt-form{
+    position: relative;
+    z-index: 5;
+}
+
+.urability .kt-portlet .kt-portlet__body{
+    padding: 25px 75px 0px;
+}
+
+.kt-section.kt-section--first{
+    margin-bottom: 0px;
+}
+
+.kt-portlet .kt-portlet__foot{
+    border: none;
+}
+
+@media only screen and (max-width: 1199px) {
+    .urability .custom-container{
+        width: 800px;
+    }
+
+    .urability .kt-portlet{
+        width: 450px;
+    }
+    
+    .urability .kt-portlet .kt-portlet__body {
+        padding: 25px 15px 0px;
+    }
+    
+    .urability .custom-container .left{
+        width: 325px;
+        top: 85px;
+        left: 0px;
+        z-index: 3;
+    }
+
+    .urability .custom-container .right{
+        width: 325px;
+        top: 290px;
+        right: 0px;
+    }
+
+    .urability .custom-container .girl{
+        width: 170px;
+        top: 305px;
+        left: 0px;
+    }
+
+    .urability .custom-container .boy{
+        width: 100px;
+        top: 353px;
+        right: 55px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .urability .custom-container{
+        width: 700px;
+    }
+    
+    .logo {
+        position: relative;
+        top: 30px;
+        left: 50%;
+        width: 181px;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .urability h2 {
+        margin: 90px 0px 0px;
+    }
+    
+    .urability h3 {
+        margin: 15px 0px 70px;
+        font-size: 14px;
+        text-align: center;
+        color: #465366;
+    }
+    
+    .urability .custom-container .left {
+        top: 150px;
+    }
+    
+    .urability .custom-container .right {
+        top: 345px;
+    }
+    
+    .urability .custom-container .girl {
+        width: 130px;
+        top: 430px;
+        left: -10px;
+    }
+    
+    .urability .custom-container .boy {
+        width: 80px;
+        top: 459px;
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .urability .custom-container{
+        width: 100%;
+    }
+
+    .urability .kt-portlet{
+        width: 80%;
+    }
+
+    .logo {
+        position: relative;
+        top: 15px;
+        width: 101px;
+    }
+    
+    .oval-2 {
+        width: 140px;
+    }
+
+    .urability h2 {
+        margin: 70px 0px 0px;
+        font-size: 22px;
+    }
+
+    .urability h3 {
+        margin: 15px 0px 80px;
+        font-size: 11px;
+        text-align: center;
+        color: #465366;
+    }
+    
+    .urability .kt-portlet .kt-portlet__body {
+        padding: 25px 15px 100px;
+    }
+    
+    .urability .custom-container .kt-portlet h2 {
+        margin: 25px 0px 0px;
+        font-size: 26px;
+    }
+
+    .urability .custom-container .kt-portlet h3 {
+        margin: 5px 0px 70px;
+        font-size: 14px;
+    }
+
+    .urability .custom-container .left {
+        top: 250px;
+    }
+
+    .urability .custom-container .right {
+        top: 455px;
+    }
+
+    .urability .custom-container .girl {
+        display: none;
+    }
+
+    .urability .custom-container .boy {
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .oval-2 {
+        width: 85px;
+    }
+}
